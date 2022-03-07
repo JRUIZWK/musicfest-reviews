@@ -1,9 +1,7 @@
-import { Festival } from "../models/festival.js"
-
-function newFestival (req, res) {
-  res.render('festival/new')
+function newFestival(req, res) {
+  res.render('festivals/new')
 }
 
 export {
-  newFestival as new
+  newFestival as new,
 }

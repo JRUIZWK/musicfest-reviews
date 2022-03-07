@@ -7,7 +7,7 @@ const festivalSchema = new Schema({
   location: String,
   year: Number,
   wouldYouAttenedAgain: Boolean,
-  comments: String,
+  comments: String
 })
 
 const Festival = mongoose.model('Festival', festivalSchema)
