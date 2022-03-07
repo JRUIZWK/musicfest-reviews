@@ -6,6 +6,9 @@ const router = Router()
 /* GET users listing. */
 router.get('/new', festivalCtrl.new)
 
+// POST - localhost:3000/festivals
+router.post('/', festivalCtrl.create)
+
 export {
   router
 }
