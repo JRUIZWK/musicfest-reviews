@@ -6,7 +6,6 @@ const festivalSchema = new Schema({
   title: String,
   location: String,
   year: Number,
-  mpaaRatiing: String,
   wouldYouAttenedAgain: Boolean,
   comments: String,
 })

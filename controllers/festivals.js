@@ -6,5 +6,4 @@ function newFestival (req, res) {
 
 export {
   newFestival as new
-
 }

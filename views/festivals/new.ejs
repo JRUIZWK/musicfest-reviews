@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Enter a new Music Festival</h1>
+  <form action="/festivals" method="POST">
+    <label>Title:
+      <input type="text" name="title">
+    </label><br>
+    <label>Location:
+      <input type="text" name="location">
+    </label><br>
+    <label>Year:
+      <input type="text" name="year">
+     </label><br>
+    <label>Would you attend again?:
+      <input type="checkbox" name="wouldYouAttenedAgain" checked>
+    </label><br>
+    <label>Comments:
+      <input type="text" name="comments">
+    </label><br>
+    <button type="submit">Add Music Festival</button>
+  </form>
+</body>
+</html>
