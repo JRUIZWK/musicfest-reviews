@@ -4,11 +4,12 @@
 </head>
 <body>
   <nav>
-    <a href="/festivals/new">Add Music Festival Review</a>
+    <a href="/festivals">Home</a>
     <a href="/profiles">Profiles</a>
+    <a href="/festivals/new">Add Review</a>
     <% if (user) { %>
       <a href="/auth/logout">
-        <button type="submit">Logout</button>
+        <button type="submit">Sign Out</button>
       </a>
     <% } else { %>
       <a href="/auth/google" class="siwg-link">

@@ -6,7 +6,6 @@ import createError from 'http-errors'
 import session from 'express-session'
 import logger from 'morgan'
 import methodOverride from 'method-override'
-
 import passport from 'passport'
 
 // connect to MongoDB with mongoose
