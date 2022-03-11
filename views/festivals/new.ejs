@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/public/stylesheets/style.css">
-  <title>Add New Music Festival</title>
+  <title>MuiscFest Reviews</title>
 </head>
 <body>
-  <h1>Add a New Music Festival</h1>
+  <h1>Add a New Music Festival Review</h1>
   <form action="/festivals" method="POST">
     <label>Title:
       <input type="text" name="title">
@@ -22,10 +22,18 @@
     <label>Would you attened again?:
       <input type="checkbox" name="wouldYouAttenedAgain" checked>
     </label><br>
+    <label for="rating-select">Rating 1-5</label>
+    <select name="rating" id="rating-select">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select><br>
     <label>Comments:
       <input type="text" name="comments">
     </label><br>
-    <button type="submit">Add New Music Festival</button>
+    <button type="submit">Add</button>
   </form>
 </body>
 </html>

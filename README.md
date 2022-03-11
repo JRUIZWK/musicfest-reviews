@@ -2,17 +2,17 @@
 
 # Getting Started
 
-I've created an application where the entire community can come in and share there experiences from attending previous music festivals.
+oh my.
 
-<a></a>
+<a href="https://musicfest-reviews.herokuapp.com/">MuiscFest Reviews</a>
 <br>
 <a href="https://trello.com/b/x2z2bn2Y/unit-2-project-materials-planning">Trello</a>
 
 # Point A - Point B (WIREFRAMES)
 
-<img src="./public/images/W1-A.png" alt="Wireframe">
-<img src="./public/images/W1-B.png" alt="Wireframe">
-<img src="./public/images/W1-D.png" alt="wireframe">
+<img src="/public/images/W1-A.png" alt="Wireframe">
+<img src="/public/images/W1-D.png" alt="Wireframe">
+
 
 # Technologies Used
 

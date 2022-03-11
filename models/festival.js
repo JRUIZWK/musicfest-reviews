@@ -8,6 +8,10 @@ const festivalSchema = new Schema({
   year: Number,
   wouldYouAttenedAgain: Boolean,
   comments: String,
+  rating: {
+    type: String,
+    enum: ["1", "2", "3", "4", "5"]
+  },
   owner: {type: Schema.Types.ObjectId, ref: "Profile"}
 })
 
