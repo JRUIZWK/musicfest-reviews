@@ -2,9 +2,9 @@
 
 # Getting Started
 
-oh my.
 
-<a href="https://musicfest-reviews.herokuapp.com/">MuiscFest Reviews</a>
+
+
 <br>
 <a href="https://trello.com/b/x2z2bn2Y/unit-2-project-materials-planning">Trello</a>
 
