@@ -1,3 +1,65 @@
 <%- include('../partials/html-head') %>
+<%- include('../partials/nav') %>
+
+<main>
+  <div id="heading">
+    <h1>MusicFest Reviews</h1>
+    <img src="/images/EDCLV.png">
+  </div>
+  <div>
+    <% if (festivals.length) { %>
+    <table id="list">
+      <thead id="festivallist">
+        <tr>
+          <th>
+            <h2>Festivals</h2>
+          </th>
+          <th>
+          </th>
+          <th>
+            <h2>Location</h2>
+          </th>
+          <th>
+          </th>
+          <th>
+            <h2>Year Attended</h2>
+          </th>
+        </tr>
+      </thead>
+      <br>
+      <tbody>
+        <% festivals.forEach(festival => { %>
+          <tr> 
+            <td>
+              <h2>
+                <a href="/festivals/<%= festival._id %>">
+                  <%= festival.name %>
+              </a>
+              </h2>
+            </td>
+            <td>
+            </td>
+            <td>
+              <h2>
+                <%= festival.location %> </td>
+              </h2>
+            </td>
+            <td>
+            </td>
+          <td>
+            <h2>
+              <%= festival.year %> </td>
+            </h2>
+          </td>
+          </tr>
+        <% }) %>
+        </tbody>
+      </table>
+      <% } else { %> 
+        <h2>No Reviews Yet</h2>
+        <% } %> 
+        <br>
+</div>
+</main>
 
 <%- include('../partials/footer') %>

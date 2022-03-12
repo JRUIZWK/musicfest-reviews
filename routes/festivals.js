@@ -1,17 +1,18 @@
 import { Router } from 'express'
-import * as festivalCtrl from "../controllers/festivals.js"
+import * as festivalsCtrl from '../controllers/festivals.js'
 import { isLoggedIn } from '../middleware/middleware.js'
 
 const router = Router()
 
-router.get('/', isLoggedIn, festivalCtrl.index)
-router.get('/new', isLoggedIn, festivalCtrl.new)
-router.post('/', isLoggedIn, festivalCtrl.create)
-router.get('/:id', isLoggedIn, festivalCtrl.show)
-router.post('/:id/reviews', isLoggedIn, festivalCtrl.createReview)
-router.get('/:id/edit', isLoggedIn, festivalCtrl.edit)
-router.put('/:id', isLoggedIn, festivalCtrl.update)
-router.delete('/:id', isLoggedIn, festivalCtrl.delete)
+router.get('/', festivalsCtrl.index)
+router.get('/new', isLoggedIn, festivalsCtrl.new)
+router.get('/:id', festivalsCtrl.show)
+router.get('/:id/edit', isLoggedIn, festivalsCtrl.edit)
+router.post('/', isLoggedIn, festivalsCtrl.create)
+router.post('/:id/reviews', isLoggedIn, festivalsCtrl.createReview)
+router.put('/:id', isLoggedIn, festivalsCtrl.update)
+router.delete('/:id', isLoggedIn, festivalsCtrl.delete)
+router.delete('/:id/reviews/:reviewId', isLoggedIn, festivalsCtrl.deleteReview)
 
 export {
   router

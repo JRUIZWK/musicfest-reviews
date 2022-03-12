@@ -1,4 +1,43 @@
 <%- include('../partials/html-head') %>
+<link rel="stylesheet" href="/stylesheets/add.css" />
 <%- include('../partials/nav') %>
+
+<main>
+  <div id="heading">
+    <h1>Edit Festivals Details</h1>
+    <img id="addIMG" src="/images/UNTOLD.png">
+  </div>
+    <form action="/festivals/<%= festival._id %>?_method=PUT" method="POST" method="POST">
+      <label>
+        Name: 
+        <input 
+        type="text" 
+        name="name" 
+        value="<%= festival.name %>"
+        >
+      </label>
+      <label>
+        Year: 
+        <input 
+        type="text" 
+        name="year" 
+        value="<%= festival.year %>"
+        autocomplete="off">
+      </label>
+      <label>
+        Location:
+        <input 
+        type="text" 
+        name="location"
+        value="<%= festival.location %>"
+        autocomplete="off">
+      </label>
+      <br>
+      <br>
+      <label id="festivalsubmit">
+        <button class="btn btn-outline-dark btn-lg" type="submit">Submit</button>
+      </label>
+    </form>
+  </main>
 
 <%- include('../partials/footer') %>

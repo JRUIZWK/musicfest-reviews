@@ -1,21 +1,27 @@
-  <% if (!user) { %>
-    <link rel="stylesheet" href="/stylesheets/siwg.css">
-  <% } %>
+<% if (!user) { %>
+  <link rel="stylesheet" href="/stylesheets/siwg.css">
+<% } %>
 </head>
 <body>
-  <nav>
-    <a href="/festivals">Home</a>
-    <a href="/festivals/new">Add Review</a>
-    <a href="/profiles">Profiles</a>
-    <% if (user) { %>
-      <a href="/auth/logout">
-        <button type="submit">Sign Out</button>
-      </a>
-    <% } else { %>
-      <a href="/auth/google" class="siwg-link">
-        <button type="submit" class="siwg">
-          <img id="siwg-image" alt="Sign in with Google" />
-        </button>
-      </a>
-    <% } %>
-  </nav>
+<nav>
+  <a href="/festivals" <%- title === 'Festivals' ? 'class="active"' : '' %>
+    >
+    Festivals
+  </a>
+  <a href="/festivals/new" <%- title === 'Add a Festival' ? 'class="active"' : '' %>
+    >
+    Add a Festival
+  </a>
+  <a href="/profiles">Profiles</a>
+  <% if (user) { %>
+    <a href="/auth/logout">
+      <button type="submit" class="btn">Sign Out</button>
+    </a>
+  <% } else { %>
+    <a href="/auth/google" class="siwg-link">
+      <button type="submit" class="siwg">
+        <img id="siwg-image" alt="Sign in with Google"/>
+      </button>
+    </a>
+  <% } %>
+</nav>

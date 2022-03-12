@@ -1,18 +1,27 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose'
 
 const Schema = mongoose.Schema
 
+const reviewSchema = new Schema({
+  content: String,
+  rating: {type: Number, min: 1, max: 5, default: 1},
+  wouldYouAttendAgain: Boolean,
+  reviewer: String,
+  owner: {
+    type: Schema.Types.ObjectId, ref: "Profile"
+  },
+}, {
+  timestamps: true
+})
+
 const festivalSchema = new Schema({
-  title: String,
+  name: String,
   location: String,
   year: Number,
-  wouldYouAttenedAgain: Boolean,
-  comments: String,
-  rating: {
-    type: String,
-    enum: ["1", "2", "3", "4", "5"]
+  owner: {
+    type: Schema.Types.ObjectId, ref: "Profile"
   },
-  owner: {type: Schema.Types.ObjectId, ref: "Profile"}
+  reviews: [reviewSchema],
 })
 
 const Festival = mongoose.model('Festival', festivalSchema)

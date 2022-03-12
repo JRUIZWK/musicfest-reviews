@@ -1,39 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/public/stylesheets/style.css">
-  <title>MuiscFest Reviews</title>
-</head>
-<body>
-  <h1>Add a New Music Festival Review</h1>
-  <form action="/festivals" method="POST">
-    <label>Title:
-      <input type="text" name="title">
-    </label><br>
-    <label>Location:
-      <input type="text" name="location">
-    </label><br>
-    <label>Year:
-      <input type="text" name="year">
-    </label><br>
-    <label>Would you attened again?:
-      <input type="checkbox" name="wouldYouAttenedAgain" checked>
-    </label><br>
-    <label for="rating-select">Rating 1-5</label>
-    <select name="rating" id="rating-select">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-    </select><br>
-    <label>Comments:
-      <input type="text" name="comments">
-    </label><br>
-    <button type="submit">Add</button>
-  </form>
-</body>
-</html>
+<%- include('../partials/html-head') %>
+<link rel="stylesheet" href="/stylesheets/add.css" />
+<%- include('../partials/nav') %>
+
+<main>
+  <% if (user) { %>
+    <div id="heading">
+      <h1>Add A Festival</h1>
+      <img id="addIMG" src="/images/EZOO2021.png">
+    </div>
+    <form id="new-form" action="/festivals" method="POST">
+      <label>
+        Name: 
+        <input type="text" name="name" autocomplete="off">
+      </label>
+      <br>
+      <label>
+        Year: 
+        <input type="text" name="year" autocomplete="off">
+      </label>
+      <br>
+      <label>
+        Location: 
+        <input type="text" name="location" autocomplete="off">
+      </label>
+      <br>
+      <label id="festivalsubmit">
+        <button class="btn btn-outline-dark btn-lg" type="submit">Add Festival</button>
+      </label>
+    </form>
+  <% } %>
+  </main>
+<%- include('../partials/footer') %>
