@@ -2,7 +2,7 @@
 
 # Getting Started
 
-**WELCOME TO MY APPLICATION, MUSICFEST REVIEWS.** Traveling accros the entire world and experiencing music festivals is what I love doing most. For me it's a way of escaping reality. I decided to create an application where the entire community can come in a share their experiences from previous music festivals they've attended.
+**WELCOME TO MY APPLICATION, MUSICFEST REVIEWS.** Traveling accros the entire world and experiencing music festivals is one of the things that I love doing the most. For me it's a way of escaping reality. I decided to create an application where the entire community can come in a share their experiences from previous music festivals they've attended.
 
 <a href="https://musicfest-reviews.herokuapp.com/festivals">MusicFest Reviews</a>
 <br>
@@ -34,10 +34,13 @@
   ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
   ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
   
+  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
 # What's next?
 
-1. The ability to add Images/Videos.
-2. Add Ligh/Dark Mode.
-   
+- [ ] The ability to add Images/Videos.
+- [ ] The ability to reply to other users reviews.
+- [ ] Add Ligh/Dark Mode.
