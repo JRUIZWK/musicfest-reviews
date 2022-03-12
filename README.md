@@ -1,8 +1,8 @@
-# MusicFest Reviews
+                                                              # MusicFest Reviews
 
 # Getting Started
 
-
+**WELCOME TO MY APPLICATION, MUSICFEST REVIEWS** Traveling accros the entire world and experiencing music festivals is what I love doing most. For me it's a way to escape reality. 
 
 <a href="https://musicfest-reviews.herokuapp.com/festivals">MusicFest Reviews</a>
 <br>
@@ -10,11 +10,11 @@
 
 # Point A - Point B (WIREFRAMES)
 
-<img src="/images/W1-A.png" alt="Wireframe">
-<img src="/images/W1-D.png" alt="Wireframe">
-<img src="/images/W1-Finish.png" alt="WireframeFinish">
-<img src="/images/W2-Finish.png" alt="WireframeFinish">
-<img src="/images/W3-Finish.png" alt="WireframeFinish">
+<img src="../musicfest-reviews/public/images/W1-A.png" alt="Wireframe">
+<img src="../musicfest-reviews/public/images/W1-D.png" alt="Wireframe">
+<img src="../musicfest-reviews/public/images/W1-Finish.png" alt="WireframeFinish">
+<img src="../musicfest-reviews/public/images/W2-Finish.png" alt="WireframeFinish">
+<img src="../musicfest-reviews/public/images/W3-Finish.png" alt="WireframeFinish">
 
 
 # Technologies Used
