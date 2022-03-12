@@ -1,8 +1,8 @@
 # MusicFest Reviews
 
-# Getting Started
-
 **WELCOME TO MY APPLICATION, MUSICFEST REVIEWS.** Traveling accros the entire world and experiencing music festivals is one of the things that I love doing the most. For me it's a way of escaping reality. I decided to create an application where the entire community can come in and share their experiences from previous music festivals they've attended.
+
+# Getting Started
 
 <a href="https://musicfest-reviews.herokuapp.com/festivals">MusicFest Reviews</a>
 <br>
@@ -12,9 +12,9 @@
 
 <img src="./public/images/W1-A.png" alt="Wireframe">
 <img src="./public/images/W1-D.png" alt="Wireframe">
-<img src="./public/images/W1-Finish.png" alt="WireframeFinish">
-<img src="./public/images/W2-Finish.png" alt="WireframeFinish">
-<img src="./public/images/W3-Finish.png" alt="WireframeFinish">
+<img src="./public/images/WF-1.png" alt="WireframeFinish">
+<img src="./public/images/WF-2.png" alt="WireframeFinish">
+<img src="./public/images/WF-3.png" alt="WireframeFinish">
 
 
 # Technologies Used

@@ -6,7 +6,7 @@
   <% if (user) { %>
     <div id="heading">
       <h1>Add A Festival</h1>
-      <img id="addIMG" src="/images/EZOO2021.png">
+      <img src="/images/EZOO2021.png">
     </div>
     <form id="new-form" action="/festivals" method="POST">
       <label>
@@ -23,6 +23,7 @@
         Location: 
         <input type="text" name="location" autocomplete="off">
       </label>
+      <br>
       <br>
       <label id="festivalsubmit">
         <button class="btn btn-outline-dark btn-lg" type="submit">Add Festival</button>
