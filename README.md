@@ -4,14 +4,17 @@
 
 
 
-
+<a href="https://musicfest-reviews.herokuapp.com/festivals">MusicFest Reviews</a>
 <br>
 <a href="https://trello.com/b/x2z2bn2Y/unit-2-project-materials-planning">Trello</a>
 
 # Point A - Point B (WIREFRAMES)
 
-<img src="/public/images/W1-A.png" alt="Wireframe">
-<img src="/public/images/W1-D.png" alt="Wireframe">
+<img src="/images/W1-A.png" alt="Wireframe">
+<img src="/images/W1-D.png" alt="Wireframe">
+<img src="/images/W1-Finish.png" alt="WireframeFinish">
+<img src="/images/W2-Finish.png" alt="WireframeFinish">
+<img src="/images/W3-Finish.png" alt="WireframeFinish">
 
 
 # Technologies Used
@@ -27,6 +30,11 @@
   ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
   ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+  ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+  ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+  
 
 # What's next?
 
