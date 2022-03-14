@@ -28,7 +28,7 @@ function create(req, res) {
   .then(festival => {
     Profile.findById(req.user.profile._id)
     .then( profile => {
-      profile.festivals.push(festival._id)
+      profile.festival.push(festival._id)
       profile.save()
       res.redirect(`/festivals/${festival._id}`)
     })

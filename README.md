@@ -1,6 +1,6 @@
 # MusicFest Reviews
 
-**WELCOME TO MY APPLICATION, MUSICFEST REVIEWS.** Traveling accros the entire world and experiencing music festivals is one of the things that I love doing the most. For me it's a way of escaping reality. I decided to create an application where the entire community can come in and share their experiences from previous music festivals they've attended.
+**WELCOME TO MY APPLICATION, MUSICFEST REVIEWS.** Traveling across the entire world and experiencing music festivals is one of the things that I love doing the most. For me it's a way of escaping reality. I decided to create an application where the entire community can come in and share their experiences from previous music festivals they've attended.
 
 # Getting Started
 
